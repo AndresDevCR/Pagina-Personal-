@@ -14,6 +14,6 @@ use App\Http\Controllers\indexController;
 */
 
 Route::controller(indexController::class)->group(function () {
-    Route::get('/','index');
+    Route::get('/','index')->name('index');
 });
 
