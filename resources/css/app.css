@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brand {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Qwitcher Grypen', cursive;
+}
